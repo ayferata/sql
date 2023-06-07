@@ -1,10 +1,10 @@
 # sql
-1)Film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
+Film tablosunda bulunan rental_rate sütunundaki değerlerin ortalaması nedir?
 
 SELECT AVG(rental_rate) FROM film;
 SELECT ROUND(AVG(rental_rate),3) FROM film;
 
-2)Film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
+Film tablosunda bulunan filmlerden kaç tanesi 'C' karakteri ile başlar?
 
 SELECT COUNT(*) FROM film
 WHERE title LIKE 'C%';
